@@ -1,0 +1,75 @@
+{
+    "articles": [
+      {
+        "id": 1,
+        "name": "Milk",
+        "price": 2.99,
+        "category": "Dairy",
+        "brand": "Farm Fresh"
+      },
+      {
+        "id": 2,
+        "name": "Bread",
+        "price": 1.99,
+        "category": "Bakery",
+        "brand": "Wonder Bread"
+      },
+      {
+        "id": 3,
+        "name": "Eggs",
+        "price": 3.49,
+        "category": "Dairy",
+        "brand": "Organic Valley"
+      },
+      {
+        "id": 4,
+        "name": "Bananas",
+        "price": 0.49,
+        "category": "Produce",
+        "brand": "Dole"
+      },
+      {
+        "id": 5,
+        "name": "Chicken",
+        "price": 4.99,
+        "category": "Meat",
+        "brand": "Perdue"
+      },
+      {
+        "id": 6,
+        "name": "Apples",
+        "price": 0.99,
+        "category": "Produce",
+        "brand": "Gala"
+      },
+      {
+        "id": 7,
+        "name": "Pasta",
+        "price": 1.29,
+        "category": "Pantry",
+        "brand": "Barilla"
+      },
+      {
+        "id": 8,
+        "name": "Cereal",
+        "price": 3.99,
+        "category": "Breakfast",
+        "brand": "Kellogg's"
+      },
+      {
+        "id": 9,
+        "name": "Orange Juice",
+        "price": 2.49,
+        "category": "Beverages",
+        "brand": "Tropicana"
+      },
+      {
+        "id": 10,
+        "name": "Toilet Paper",
+        "price": 6.99,
+        "category": "Household",
+        "brand": "Charmin"
+      }
+    ]
+  }
+  

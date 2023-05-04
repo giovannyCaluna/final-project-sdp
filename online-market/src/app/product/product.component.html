@@ -1,0 +1,27 @@
+<div class="tableContainer">
+  <table mat-table [dataSource]="products">
+    
+    <ng-container  class="my-header-cell" matColumnDef="Name">
+      <th mat-header-cell style="background-color: #8031A7;" *matHeaderCellDef>Name</th>
+      <td mat-cell style="background-color: white; border-color: black; color: black;" *matCellDef="let product">{{product.name}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Description">
+      <th mat-header-cell style="background-color: #8031A7;" *matHeaderCellDef>Description</th>
+      <td mat-cell style="background-color: white; border-color: black; color: black;" *matCellDef="let product">{{product.description}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Category">
+      <th mat-header-cell style="background-color: #8031A7;" *matHeaderCellDef>Category</th>
+      <td mat-cell  style="background-color: white; border-color: black; color: black;" *matCellDef="let product">{{product.category}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Price">
+        <th mat-header-cell style="background-color: #8031A7" *matHeaderCellDef>Price</th>
+        <td mat-cell  style="background-color: white; border-color: black; color: black;" *matCellDef="let product">{{product.price}}</td>
+      </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+</div>

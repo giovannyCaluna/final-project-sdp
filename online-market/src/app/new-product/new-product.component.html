@@ -1,0 +1,33 @@
+<div class="tableContainer">
+    <mat-card  class="title-card" color="primary" >
+        <mat-card-title style="background-color: white; text-align: center;">Please enter the information of your product</mat-card-title>
+      </mat-card> 
+
+<div class="centered-container"> 
+    <form class="example-form">
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Name</mat-label>
+            <input matInput placeholder="Enter the name of the product" name="productName" [(ngModel)]="productName">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Description</mat-label>
+            <input matInput placeholder="Give a brief description of your product" name="Description" [(ngModel)]="description">
+        </mat-form-field>
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Category</mat-label>
+            <input matInput placeholder="Enter a category"  name="Category" [(ngModel)]="category">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label> Price </mat-label>
+            <input matInput placeholder="Enter the price of your product in $" name="Price"  [(ngModel)]="price">
+        </mat-form-field>
+
+        <button mat-raised-button color="primary" (click)="submit()" > Sell </button>
+        <button mat-raised-button color="secondary" routerLink="/productsUser">Cancel</button>
+    
+    </form>
+    
+    </div>
+</div>

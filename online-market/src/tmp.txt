@@ -1,0 +1,112 @@
+
+        db.products.insertMany(    
+     [
+     {
+       name: 'Apple',
+       description: 'Fresh, juicy apples from the local orchard.',
+       price: 0.5,
+       category: 'Fruit'
+     },
+     {
+       name: 'Milk',
+       description: 'Organic whole milk from the local dairy.',
+       price: 3.25,
+       category: 'Dairy'
+     },
+     {
+       name: 'Bread',
+       description: 'Freshly baked sourdough bread from the local bakery.',
+       price: 4.99,
+       category: 'Bakery'
+     },
+     {
+       name: 'Eggs',
+       description: 'Free-range eggs from the local farm.',
+       price: 2.99,
+       category: 'Dairy'
+     },
+     {
+       name: 'Broccoli',
+       description: 'Tender, crisp broccoli from the local farm.',
+       price: 1.99,
+       category: 'Produce'
+     },
+     {
+       name: 'Chicken',
+       description: 'Organic, free-range chicken from the local farm.',
+       price: 9.99,
+       category: 'Meat'
+     },
+     {
+       name: 'Cheese',
+       description: 'Artisanal cheese from the local creamery.',
+       price: 6.99,
+       category: 'Dairy'
+     },
+     {
+       name: 'Salmon',
+       description: 'Fresh, wild-caught salmon from the local fishery.',
+       price: 12.99,
+       category: 'Seafood'
+     },
+     {
+       name: 'Pasta',
+       description: 'Handmade pasta from the local Italian restaurant.',
+       price: 5.99,
+       category: 'Pantry'
+     },
+     {
+       name: 'Beef',
+       description: 'Grass-fed beef from the local farm.',
+       price: 14.99,
+       category: 'Meat'
+     },
+     {
+       name: 'Carrots',
+       description: 'Sweet, crunchy carrots from the local farm.',
+       price: 1.49,
+       category: 'Produce'
+     },
+     {
+       name: 'Butter',
+       description: 'Rich, creamy butter from the local creamery.',
+       price: 3.99,
+       category: 'Dairy'
+     },
+     {
+       name: 'Sausage',
+       description: 'Savory, all-natural sausage from the local butcher.',
+       price: 7.99,
+       category: 'Meat'
+     },
+     {
+       name: 'Lettuce',
+       description: 'Crisp, fresh lettuce from the local farm.',
+       price: 2.49,
+       category: 'Produce'
+     },
+     {
+       name: 'Applesauce',
+       description: 'Homemade applesauce from the local orchard.',
+       price: 2.99,
+       category: 'Pantry'
+     },
+     {
+       name: 'Honey',
+       description: 'Pure, raw honey from the local beekeeper.',
+       price: 7.99,
+       category: 'Pantry'
+     },
+     {
+       name: 'Yogurt',
+       description: 'Thick, creamy yogurt from the local creamery.',
+       price: 4.49,
+       category: 'Dairy'
+     },
+     {
+       name: 'Tomatoes',
+       description: 'Juicy, ripe tomatoes from the local farm.',
+       price: 2.99,
+       category: 'Produce'
+     }
+   ])

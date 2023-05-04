@@ -1,0 +1,18 @@
+
+centered-container {
+    display: inline-block;
+    flex-direction: row;
+
+  }
+  .example-form > * {
+    width: 50%;
+  }
+  .example-full-width{
+    width: 50px;
+    display: inline; 
+ }
+
+ .tableContainer{
+  margin: 30px 150px;
+
+}

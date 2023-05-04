@@ -1,0 +1,40 @@
+<div class="tableContainer">
+    <mat-card  class="title-card" color="primary" >
+        <mat-card-title style="background-color: white; text-align: center;">Please enter your personal data</mat-card-title>
+      </mat-card> 
+
+<div class="centered-container"> 
+    <form class="example-form">
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Name</mat-label>
+            <input matInput placeholder="Enter your name" name="username" [(ngModel)]="username">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Last name</mat-label>
+            <input matInput placeholder="Enter your last name" name="userLastName" [(ngModel)]="userLastName">
+        </mat-form-field>
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>userNickname</mat-label>
+            <input matInput placeholder="Enter an username (Nickname)"   (input)= "validateUser();" name="userNickname" [(ngModel)]="userNickName">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Email </mat-label>
+            <input matInput placeholder="Enter your email" name="email" (input)= "validateMail()" [(ngModel)]="email">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Password</mat-label>
+            <input matInput placeholder="Enter your password" value="" name="password" type="password"
+                [(ngModel)]="password">
+        </mat-form-field>
+
+        <button mat-raised-button color="primary" (click)="submit()" [disabled]="!validUser"> Register</button>
+        <button mat-raised-button color="secondary" routerLink="/">Cancel</button>
+        <span *ngIf="show"> You are registered, please logIn</span>
+    
+    </form>
+    
+    </div>
+</div>
