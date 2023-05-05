@@ -72,10 +72,11 @@ updateState(product:any,seller:any){
 
     let body = new URLSearchParams();
     body.set('name', product.name);
-    body.set('seller',seller );
+    //body.set('seller',seller );
     let headers = new HttpHeaders();
-    headers = headers.set('Content-Type', 'application/raw');
-    return this.http.post(environment.baseServerUrl + '/product/updateState',  body.toString(), {headers: headers, withCredentials: true});
+    headers = headers.set('Content-Type', 'application/x-www-form-urlencoded');
+    
+    return this.http.post(environment.baseServerUrl + 'product/updateState',  body.toString(), {headers: headers, withCredentials: true});
 }
 
 

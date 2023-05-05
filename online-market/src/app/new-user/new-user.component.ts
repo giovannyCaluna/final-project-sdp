@@ -35,7 +35,7 @@ ngOnInit(): void {
  
 
   submit() {
-    this.userService.registerNewUser(this.userLastName,this.username,this.userLastName,this.email,this.password).subscribe((data) => {
+    this.userService.registerNewUser(this.userNickName,this.username,this.userLastName,this.email,this.password).subscribe((data) => {
       if (data) {
         console.log(data);
         this.show= true;

@@ -1,10 +1,10 @@
 import { Component, OnInit  } from '@angular/core';
 import {ProductService} from '../services/product.service'
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { DataService } from '../services/data.service';
 import { UserService } from '../services/user.service';
 import { Product } from '../model/Product';
-
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-product-user',
@@ -25,8 +25,8 @@ items:any;
   displayedColumns: string[] = ['Name', 'Description', 'Category','Price','Buy'];
    initialSelection = [];
  allowMultiSelect = true;
- 
-   constructor(private userService:UserService, private productService: ProductService,private dataService:DataService, private router: Router) {}
+
+   constructor (private location: Location,private userService:UserService, private productService: ProductService,private dataService:DataService, private router: Router, private route: ActivatedRoute) {}
     ngOnInit(): void {
      
     this.productService.getProductsUser(this.dataService.myData.userNIckname).subscribe((data) => {
@@ -53,7 +53,15 @@ items:any;
       this.buyProducts.forEach(element => {
         this.productService.updateState(element,this.dataService.myData.userNIckname).subscribe((data)=>{
             console.log("We are calling", data);
-        })})}}
+            this.reloadComponent();
+
+        })})}
+        reloadComponent() {
+          this.router.routeReuseStrategy.shouldReuseRoute = () => false;
+          this.router.onSameUrlNavigation = 'reload';
+          this.router.navigate([this.route.snapshot.url.join('/productUser')]);
+        }
+      }
         
     
     

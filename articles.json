@@ -1,75 +1,90 @@
 {
-    "articles": [
-      {
-        "id": 1,
-        "name": "Milk",
-        "price": 2.99,
-        "category": "Dairy",
-        "brand": "Farm Fresh"
-      },
-      {
-        "id": 2,
-        "name": "Bread",
-        "price": 1.99,
-        "category": "Bakery",
-        "brand": "Wonder Bread"
-      },
-      {
-        "id": 3,
-        "name": "Eggs",
-        "price": 3.49,
-        "category": "Dairy",
-        "brand": "Organic Valley"
-      },
-      {
-        "id": 4,
-        "name": "Bananas",
-        "price": 0.49,
-        "category": "Produce",
-        "brand": "Dole"
-      },
-      {
-        "id": 5,
-        "name": "Chicken",
-        "price": 4.99,
-        "category": "Meat",
-        "brand": "Perdue"
-      },
-      {
-        "id": 6,
-        "name": "Apples",
-        "price": 0.99,
-        "category": "Produce",
-        "brand": "Gala"
-      },
-      {
-        "id": 7,
-        "name": "Pasta",
-        "price": 1.29,
-        "category": "Pantry",
-        "brand": "Barilla"
-      },
-      {
-        "id": 8,
-        "name": "Cereal",
-        "price": 3.99,
-        "category": "Breakfast",
-        "brand": "Kellogg's"
-      },
-      {
-        "id": 9,
-        "name": "Orange Juice",
-        "price": 2.49,
-        "category": "Beverages",
-        "brand": "Tropicana"
-      },
-      {
-        "id": 10,
-        "name": "Toilet Paper",
-        "price": 6.99,
-        "category": "Household",
-        "brand": "Charmin"
-      }
-    ]
+  [
+    {
+      "name": "Organic Avocado",
+      "description": "Fresh and delicious organic avocados grown with sustainable practices.",
+      "price": 2.99,
+      "category": "Produce",
+      "seller": "gio96"
+    },
+    {
+      "name": "Wireless Bluetooth Earbuds",
+      "description": "Premium sound quality and noise-cancelling features for an immersive listening experience.",
+      "price": 29.99,
+      "category": "Electronics",
+      "seller": "gio96"
+    },
+    {
+      "name": "Comfortable Yoga Pants",
+      "description": "Soft and stretchy yoga pants designed to provide maximum comfort and flexibility during your workout.",
+      "price": 24.99,
+      "category": "Clothing",
+      "seller": "gio96"
+    },
+    {
+      "name": "Organic Strawberries",
+      "description": "Fresh and sweet organic strawberries grown without the use of harmful pesticides.",
+      "price": 3.99,
+      "category": "Produce",
+      "seller": "gio96"
+    },
+    {
+      "name": "Samsung Galaxy S21",
+      "description": "A powerful and sleek smartphone with an advanced camera system and 5G connectivity.",
+      "price": 699.99,
+      "category": "Electronics",
+      "seller": "gio96"
+    },
+    {
+      "name": "Stainless Steel Water Bottle",
+      "description": "An eco-friendly and durable water bottle with a sleek and stylish design.",
+      "price": 19.99,
+      "category": "Home & Kitchen",
+      "seller": "gio96"
+    },
+    {
+      "name": "Leather Watch",
+      "description": "A classic and timeless leather watch with a sophisticated design.",
+      "price": 99.99,
+      "category": "Fashion",
+      "seller": "gio96"
+    },
+    {
+      "name": "Organic Kale",
+      "description": "Fresh and nutritious organic kale grown with care and dedication.",
+      "price": 2.49,
+      "category": "Produce",
+      "seller": "gio96"
+    },
+    {
+      "name": "Noise-Cancelling Headphones",
+      "description": "Top-of-the-line noise-cancelling headphones with crystal-clear audio quality and wireless connectivity.",
+      "price": 349.99,
+      "category": "Electronics",
+      "seller": "gio96"
+    },
+    {
+      "name": "Cotton Bath Towels",
+      "description": "Soft and absorbent cotton bath towels that add a touch of luxury to your daily routine.",
+      "price": 29.99,
+      "category": "Home & Kitchen",
+      "seller": "gio96"
+    },
+    {
+      "name": "Men's Leather Wallet",
+      "description": "A stylish and functional men's leather wallet with ample storage space and a sleek design.",
+      "price": 49.99,
+      "category": "Fashion",
+      "seller": "gio96"
+    },
+    {
+      "name": "Organic Blueberries",
+      "description": "Fresh and juicy organic blueberries packed with antioxidants and nutrients.",
+      "price": 4.99,
+      "category": "Produce",
+      "seller": "gio96"
+    }]
+  
+    
   }
   
